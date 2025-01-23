@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Better Call Saul Image Replacer",
+    "version": "1.0",
+    "description": "Substitui todas as imagens do site por 'https://media.moddb.com/cache/images/mods/1/56/55177/thumb_620x2000/bandicam_2022-09-05_20-00-55-025.jpg'.",
+    "permissions": ["activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
