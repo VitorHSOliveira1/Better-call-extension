@@ -1,5 +1,5 @@
-image = document.querySelectorAll("img")
-divs = document.querySelectorAll("div")
+const image = document.querySelectorAll("img")
+const divs = document.querySelectorAll("div")
 
 function fixiconyt(){
     if (img.className === "ytdTextInputAssistantIcon"){
