@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Better Call Extension",
-    "version": "1.2",
+    "version": "1.3",
     "description": "Substitui todas as imagens do site pelo maravilhoso Saul godman.",
     "permissions": ["activeTab"],
     "host_permissions": ["<all_urls>"],
